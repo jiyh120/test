@@ -1,7 +1,6 @@
 ---
   - hosts: all
     tasks:
-      - name: install telnet
-        yum: name=telnet
-  
+      - name: ping
+        ping:
   
